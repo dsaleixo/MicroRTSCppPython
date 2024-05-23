@@ -65,8 +65,8 @@ class Test6:
             print(pgs.getWidth())
             while not gs2.gameover() and cont<3000:
                 
-                
-                if show and exi  :
+                screen.draw()
+                if show and exi   :
                     screen.draw()
                     time.sleep(0.1) 
                 
